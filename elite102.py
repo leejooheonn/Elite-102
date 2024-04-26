@@ -56,7 +56,7 @@ def deposit_funds(user_account_num):
     new = int(cursor.fetchone()[0])
     print(f"Current balance: {new}")
 
-
+# hiii
 
 # Withdrawing funds: Allowing users to remove money from their account.
 def withdraw_funds(user_account_num):
@@ -72,6 +72,7 @@ def withdraw_funds(user_account_num):
     cursor.execute(new_balance)
     new = int(cursor.fetchone()[0])
     print(f"Current balance: {new}")
+   
 
 
 
